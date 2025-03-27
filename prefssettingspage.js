@@ -43,6 +43,7 @@ export const SettingsPageHandler = class SettingsPageHandler {
         this.createAdwComborow();
 
         this._settingsPage.add(this._testListGroup);
+
     }
     createGtkDropdown() {
         this._drop_down = new Gtk.DropDown();        
@@ -62,7 +63,7 @@ export const SettingsPageHandler = class SettingsPageHandler {
         this._comborow.set_expression(Gtk.PropertyExpression.new(TestItemSubclass.TestItemSubclass, null, 'display-property'));
        
         this._testListGroup.add(this._comborow);   
-          
+
         //just to look less clumped
         this._comborow.set_margin_top(10); 
         this._comborow.set_margin_bottom(10);        
