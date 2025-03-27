@@ -1,0 +1,8 @@
+{
+  "name": "Dropdown Example",
+  "description": "Sample project for Gnome shell extensions, Adw.Comborow and Gtk.Dropdown examples with custom models",
+  "uuid": "gnome-comborow-dropdown-example@dokaton.com",
+  "shell-version": [
+    "46", "47", "48"
+  ]
+}
